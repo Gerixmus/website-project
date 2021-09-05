@@ -1,24 +1,30 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Navbar from './components/NavBar'
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import home from './components/pages/home';
+import products from './components/pages/products';
+import signup from './components/pages/SignUp';
+import ScrollToTop from './components/ScrollToTop';
+import {AnimatePresence} from 'framer-motion';
+import CennikStrona from './components/pages/cennik';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Router>
+        <AnimatePresence exitBeforeEnter>
+        <ScrollToTop />
+        <Navbar />
+        <Switch>       
+          <Route path='/' exact component={home} />
+          <Route path='/cennik' component={CennikStrona} />
+          <Route path='/products' component={products} />
+          <Route path='/sign-up' component={signup} />
+        </Switch>
+        </AnimatePresence>
+      </Router>      
+    </>
   );
 }
 

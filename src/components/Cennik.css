@@ -1,0 +1,22 @@
+.cennik-container {
+    background-color: #fff;
+    padding: 4rem 0 4rem 0;
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .cennik-text {
+    font-family: 'PT Sans', sans-serif;
+  }
+  
+  .cennik-title {
+    margin-bottom: 24px;
+    font-size: 3rem;
+  }
+  
+  .cennik-ceny {
+    margin-bottom: 24px;
+    font-size: 2rem;
+  }
