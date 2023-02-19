@@ -54,11 +54,6 @@ function Navbar(){
                             O nas
                         </Link>
                     </li>
-                    {/*<li className='nav-item'>
-                        <Link to='/products' className='nav-links' onClick={closeMobileMenu}>
-                            Oferta 
-                        </Link>
-                        </li>*/}
                     <li className='nav-item'>
                         <Link to='/cennik' className='nav-links' onClick={closeMobileMenu}>
                             Ucz się ze mną

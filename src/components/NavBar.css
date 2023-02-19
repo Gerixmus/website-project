@@ -83,17 +83,19 @@
   .nav-menu {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    height: 90vh;
+    /* width height comment makes it cover only 50% */
+    width: 100%;           
+    height: 100%;
     position: absolute;
-    top: -80px;
+    /* this makes it cover all page but without links */
+    /* top: -80px; */
     left: -100%;
     opacity: 1;
     transition: all 0.5s ease;
   }
 
   .nav-menu.active {
-    background: #242222;
+    background: #242424;
     height: 120vh;
     left: 0;
     opacity: 1;
