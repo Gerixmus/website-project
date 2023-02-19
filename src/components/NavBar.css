@@ -94,7 +94,7 @@
 
   .nav-menu.active {
     background: #242222;
-    height: 90vh;
+    height: 120vh;
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;
@@ -103,7 +103,7 @@
 
   .nav-links {
     text-align: center;
-    padding: 2rem;
+    padding: 1rem;
     width: 100%;
     display: table;
   }
