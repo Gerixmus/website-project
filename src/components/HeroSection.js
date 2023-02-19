@@ -7,7 +7,7 @@ function HeroSection() {
     return (
         <div className='hero-container'>
             {/*<img src="/images/img-dogs.jpg" alt="lul"/>*/}
-            <img src="/images/img-school.jpg" alt="lul"/>
+            <img src="/images/img-school.jpg" alt="hero_section"/>
             {/*<video src="/videos/video-2.mp4" autoPlay loop muted />*/}
             <h1>GORGO SCHOOL</h1>  
             <p>Szkoła języka angielskiego</p> 
