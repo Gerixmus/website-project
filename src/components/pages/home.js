@@ -6,7 +6,7 @@ import Footer from '../Footer';
 import { motion } from 'framer-motion'
 import { animationSwitch, transition } from '../../animations';
 
-function home() {
+function Home() {
     return(
         <motion.div initial="out" animate="in" exit="out" variants={animationSwitch} transition={transition}>
             <HeroSection/>
@@ -16,4 +16,4 @@ function home() {
     )
 }
 
-export default home;
+export default Home;

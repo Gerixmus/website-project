@@ -1,29 +1,27 @@
 import React from 'react';
 import './App.css';
 import Navbar from './components/NavBar'
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-import home from './components/pages/home';
-import products from './components/pages/products';
-import signup from './components/pages/SignUp';
+import {Route, Routes} from 'react-router-dom';
+import Home from './components/pages/home';
+import Products from './components/pages/products';
+import Signup from './components/pages/SignUp';
 import ScrollToTop from './components/ScrollToTop';
-import {AnimatePresence} from 'framer-motion';
 import CennikStrona from './components/pages/cennik';
+import {AnimatePresence} from 'framer-motion';
 
 function App() {
   return (
     <>
-      <Router>
-        <AnimatePresence exitBeforeEnter>
-        <ScrollToTop />
-        <Navbar />
-        <Switch>       
-          <Route path='/' exact component={home} />
-          <Route path='/cennik' component={CennikStrona} />
-          <Route path='/products' component={products} />
-          <Route path='/sign-up' component={signup} />
-        </Switch>
-        </AnimatePresence>
-      </Router>      
+      <AnimatePresence exitBeforeEnter>
+      <ScrollToTop />
+      <Navbar />
+      <Routes>
+        <Route path='/website-project' element={<Home/>}/>   
+        <Route path='/website-project/cennik' element={<CennikStrona/>} />
+        <Route path='/website-project/products' element={<Products/>} />
+        <Route path='/website-project/sign-up' element={<Signup/>} /> 
+      </Routes>
+      </AnimatePresence>   
     </>
   );
 }
