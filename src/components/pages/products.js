@@ -10,7 +10,6 @@ export default function Products() {
         <motion.div initial="out" animate="in" exit="out" variants={animationSwitch} transition={transition}>
             <h1 className='products'>PRODUCTS</h1>
             <Oferta/>
-            <Footer/>
         </motion.div>
     )
     

@@ -9,7 +9,6 @@ export default function CennikStrona() {
     return (
         <motion.div initial="out" animate="in" exit="out" variants={animationSwitch} transition={transition}>
             <Cennik/>
-            <Footer/>
         </motion.div>
     )
 }

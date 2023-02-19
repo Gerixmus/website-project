@@ -8,10 +8,11 @@ import Signup from './components/pages/SignUp';
 import ScrollToTop from './components/ScrollToTop';
 import CennikStrona from './components/pages/cennik';
 import {AnimatePresence} from 'framer-motion';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <>
+    <div style={{display: "flex", flexDirection: "column", height: "100%"}}>
       <AnimatePresence exitBeforeEnter>
       <ScrollToTop />
       <Navbar />
@@ -22,8 +23,9 @@ function App() {
         <Route path='/website-project/products' element={<Products/>} />
         <Route path='/website-project/sign-up' element={<Signup/>} /> 
       </Routes>
+      <Footer/>
       </AnimatePresence>   
-    </>
+    </div>
   );
 }
 

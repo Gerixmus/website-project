@@ -11,7 +11,6 @@ function Home() {
         <motion.div initial="out" animate="in" exit="out" variants={animationSwitch} transition={transition}>
             <HeroSection/>
             <Cards/>
-            <Footer/>
         </motion.div>
     )
 }
