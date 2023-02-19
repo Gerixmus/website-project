@@ -1,6 +1,5 @@
 import React from 'react'
 import '../../App.css'
-import Footer from '../Footer'
 import Cennik from '../Cennik'
 import { motion } from 'framer-motion'
 import { animationSwitch, transition } from '../../animations';

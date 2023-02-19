@@ -28,33 +28,33 @@ function Kontakt(props) {
           showResult(false)
       }, 5000)
     return (
-        <div className="form">
-            <form action="" onSubmit={sendEmail}>
-                <div className="formWord">
-                    <h2>Napisz do nas!</h2>
-                    <span>Imię i nazwisko</span>
-                    <br />
-                    <input className="input100" type="text" name="fullName" required />
-                    <br />
-                    <span>Numer telefonu</span>
-                    <br />
-                    <input className="input100" type="text" name="phone" pattern="[0-9]{9}"  />
-                    <br />
-                    
+        <div className="contact_site_container">
+            <form className="contact_form_container" action="" onSubmit={sendEmail}>
+            <h2 style={{margin: "20px"}}>Napisz do nas!</h2>
+            <div className="form_imput_container">
+                <div className="contact_info_form">                 
+                    <div className="form_part">
+                        <label for="fullName">Imię i nazwisko</label>
+                        <input className="personal_info" type="text" id="fullName" name="fullName" required />
+                    </div>
+                    <div className="form_part">
+                        <label for="phone">Numer telefonu</label>
+                        <input className="personal_info" type="text" id="phone" name="phone" pattern="[0-9]{9}"/>  
+                    </div>
+                    <div className="form_part">
+                        <label for="email">Adres email</label>
+                        <input className="personal_info" type="email" id="email" name="email" required/>  
+                    </div>            
                 </div>
-                <div className="formWord">
-                    <span>Adres email</span>
-                    <br />
-                    <input className="input100" type="email" name="email" required/>
-                    <br />
-                    <span>Wiadomość</span>
-                    <br />
-                    <textarea name="message" required></textarea>
-                    <br />
-                    <button>Wyślij</button>
-
-                    <div className="row">{result ? <Result/> : null}</div>
+                <div className="message_form">
+                    <div className="form_part">
+                        <label for="message">Wiadomość</label>
+                        <textarea className="message_input" id="message" name="message" required></textarea>
+                    </div>
                 </div>
+            </div>
+            <button>Wyślij</button>
+            <div className="row">{result ? <Result/> : null}</div>
             </form>
         </div>
     );
