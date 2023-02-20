@@ -31,7 +31,7 @@ function Kontakt(props) {
         <div className="contact_site_container">
             <div className="contact_container">
                 <form className="form_container" action="" onSubmit={sendEmail}>
-                <h2 style={{margin: "20px"}}>Napisz do nas!</h2>
+                <h2 className="form_header">Napisz do nas!</h2>
                 <div className="form_imput_container">
                     <div className="contact_info_form">                 
                         <div className="form_part">
@@ -58,9 +58,20 @@ function Kontakt(props) {
                 </div>
                 </form>
                 <div className="social_information">
-                    <i class="fa-solid fa-location-dot"></i><h2>+48 123 456 789</h2>
-                    <h2>jan.kowalski@mail.com</h2>
-                    <h2>Street, City, Country</h2>
+                    <div className="social_information_container">
+                        <div className="social_information_section">
+                            <img className="social_information_icon" src="/website-project/icons/pin.svg" alt="pin"/>
+                            <h2>Street, City, Country</h2>
+                        </div>
+                        <div className="social_information_section">
+                            <img className="social_information_icon" src="/website-project/icons/phone.svg" alt="pin"/>
+                            <h2>+48 123 456 789</h2>
+                        </div>
+                        <div className="social_information_section">
+                            <img className="social_information_icon" src="/website-project/icons/email.svg" alt="pin"/>
+                            <h2>jan.kowalski@mail.com</h2>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
