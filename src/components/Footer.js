@@ -70,30 +70,39 @@ function Footer() {
           </div>
           <small class='website-rights'>Gabriel Gordziejonok © 2021</small>
           <div class='social-icons'>
-            <Link
+            {/* <Link
               class='social-icon-link facebook'
               to={{ pathname: "https://www.facebook.com/mrsgorgo" }}
               target='_blank'
               aria-label='Facebook'
             >
               <i class='fab fa-facebook-f' />
-            </Link>
-            <Link
+            </Link> */}
+            {/* <Link
               class='social-icon-link website'
               to={{ pathname: "https://www.facebook.com/Arctic-Whiteness-FCI-hodowla-ps%C3%B3w-rasowych-Siberian-Husky-210529449704879" }}
               target='_blank'
               aria-label='Facebook'
             >
               <i class='fa fa-paw' />
-            </Link>
-            <Link
+            </Link> */}
+            <a class='social-icon-link website' href="https://www.facebook.com/mrsgorgo" target="_blank">
+              <i class='fab fa-facebook-f' />
+            </a>
+            <a class='social-icon-link website' href="https://www.facebook.com/Arctic-Whiteness-FCI-hodowla-ps%C3%B3w-rasowych-Siberian-Husky-210529449704879" target="_blank">
+              <i class='fa fa-paw' />
+            </a>
+            <a class='social-icon-link website' href="https://www.instagram.com/" target="_blank">
+            <i class='fab fa-instagram' />
+            </a>
+            {/* <Link
               class='social-icon-link instagram'
               to='/'
               target='_blank'
               aria-label='Instagram'
             >
               <i class='fab fa-instagram' />
-            </Link>
+            </Link> */}
             {/*
             <Link
               class='social-icon-link youtube'
