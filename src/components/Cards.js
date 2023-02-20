@@ -1,6 +1,7 @@
 import React from 'react';
 import './Cards.css';
 import {CardItem, CardFB} from './CardItem';
+import { FacebookEmbed } from 'react-social-media-embed';
 
 function Cards() {
   return (
@@ -21,13 +22,6 @@ function Cards() {
                 label='Ren'
                 path='/cennik'
               />
-              {/*
-              <CardFB
-                fblink='https://www.facebook.com/permalink.php?story_fbid=1038286173595865&id=210529449704879'
-              />
-              <CardFB
-                fblink='https://www.facebook.com/permalink.php?story_fbid=1038280106929805&id=210529449704879'
-              />*/}
             </ul>
             <ul className='cards__items'>
               <CardItem
@@ -49,6 +43,10 @@ function Cards() {
                 path='/cennik'
               />
             </ul>
+            <h1>Zobacz nasze posty na Facebooku!</h1>
+            <div style={{ display: 'flex', justifyContent: 'center' }}>
+              <FacebookEmbed url="https://www.facebook.com/mrsgorgo/posts/216773654049939" width={550} />
+            </div>
           </div>
         </div>
       </div>
