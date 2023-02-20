@@ -85,9 +85,9 @@ function Kontakt(props) {
                     </div>
                 </div>
             </div>
-            {/* <div>
+            <div>
                 <MyComponent></MyComponent>
-            </div> */}
+            </div>
         </div>
     );
 }
