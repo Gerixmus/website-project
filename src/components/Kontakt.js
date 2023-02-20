@@ -48,28 +48,38 @@ function Kontakt(props) {
                         </div>            
                     </div>
                     <div className="message_form">
-                        <div className="form_part">
+                        <div className="form_part_message">
                             <label for="message">Wiadomość</label>
                             <textarea className="message_input" id="message" name="message" required></textarea>
-                            <button>Wyślij</button>
                             <div className="row">{result ? <Result/> : null}</div>
+                            <button>Wyślij</button>
                         </div>
                     </div>
                 </div>
                 </form>
                 <div className="social_information">
                     <div className="social_information_container">
-                        <div className="social_information_section">
-                            <img className="social_information_icon" src="/website-project/icons/pin.svg" alt="pin"/>
-                            <h2>Street, City, Country</h2>
+                        <h2 className="comment_header">Dane kontaktowe</h2>
+                        <div style={{display: "flex", flexDirection: "column", gap: "10px"}}>
+                            <div className="social_information_section">
+                                <img className="social_information_icon" src="/website-project/icons/pin.svg" alt="pin"/>
+                                <p>Towarowa 3, 00-811 Warszawa, Polska</p>
+                            </div>
+                            <div className="social_information_section">
+                                <img className="social_information_icon" src="/website-project/icons/phone.svg" alt="pin"/>
+                                <p>+48 123 456 789</p>
+                            </div>
+                            <div className="social_information_section">
+                                <img className="social_information_icon" src="/website-project/icons/email.svg" alt="pin"/>
+                                <p>jan.kowalski@mail.com</p>
+                            </div>
                         </div>
-                        <div className="social_information_section">
-                            <img className="social_information_icon" src="/website-project/icons/phone.svg" alt="pin"/>
-                            <h2>+48 123 456 789</h2>
-                        </div>
-                        <div className="social_information_section">
-                            <img className="social_information_icon" src="/website-project/icons/email.svg" alt="pin"/>
-                            <h2>jan.kowalski@mail.com</h2>
+                        <div style={{marginBottom: "20px"}}>
+                            <div style={{display: "flex", gap: "25px"}}>
+                                <img className="social_information_icon_2" src="/website-project/icons/pin.svg" alt="pin"/>
+                                <img className="social_information_icon_2" src="/website-project/icons/pin.svg" alt="pin"/>
+                                <img className="social_information_icon_2" src="/website-project/icons/pin.svg" alt="pin"/>
+                            </div>
                         </div>
                     </div>
                 </div>
