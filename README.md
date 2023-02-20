@@ -4,5 +4,6 @@ This project was built to showcase react website for a teaching company. It feat
 
 ## To do list 📋
 * Improve layout on contact page
-* Add section with facebook posts
 * Rework pricing page
+* Finish contact page
+* Rework favicon
