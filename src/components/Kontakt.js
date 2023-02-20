@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import './Kontakt.css';
 import emailjs from 'emailjs-com';
+import MyComponent from './Map';
 
 const Result = () =>{
     return(
@@ -84,6 +85,9 @@ function Kontakt(props) {
                     </div>
                 </div>
             </div>
+            {/* <div>
+                <MyComponent></MyComponent>
+            </div> */}
         </div>
     );
 }
