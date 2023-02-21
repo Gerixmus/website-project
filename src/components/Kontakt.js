@@ -41,7 +41,7 @@ function Kontakt(props) {
                         </div>
                         <div className="form_part">
                             <label for="phone">Numer telefonu</label>
-                            <input className="personal_info" type="text" id="phone" name="phone" pattern="[0-9]{9}"/>  
+                            <input className="personal_info" type="text" id="phone" name="phone" pattern="[+]?[0-9]{2}[0-9]{9}|[0-9]{9}"/>  
                         </div>
                         <div className="form_part">
                             <label for="email">Adres email</label>
