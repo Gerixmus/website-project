@@ -12,7 +12,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div style={{display: "flex", flexDirection: "column"}}>
+    <div style={{display: "flex", flexDirection: "column", height: "100%"}}>
       <AnimatePresence exitBeforeEnter>
       <ScrollToTop />
       <Navbar />
