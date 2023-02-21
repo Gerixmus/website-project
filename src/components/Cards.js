@@ -45,7 +45,7 @@ function Cards() {
             </ul>
             <h1>Zobacz nasze posty na Facebooku!</h1>
             <div style={{ display: 'flex', justifyContent: 'center' }}>
-              <FacebookEmbed url="https://www.facebook.com/mrsgorgo/posts/216773654049939" width={550} />
+              <FacebookEmbed url="https://www.facebook.com/20531316728/posts/10154009990506729/" width={550} />
             </div>
           </div>
         </div>
