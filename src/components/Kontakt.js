@@ -5,7 +5,7 @@ import MyComponent from './Map';
 
 const Result = () =>{
     return(
-        <p>Twoja Wiadomość została wysłana.</p>
+        <p>Twoja Wiadomość została wysłana!</p>
     )
 }
 

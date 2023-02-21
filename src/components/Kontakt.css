@@ -95,7 +95,6 @@
     height: 20px;
   }
   form button {
-    margin-top: auto;
     width: 100%;
     height: 35px;
     border: 0;
@@ -145,4 +144,7 @@
   }
   .social_information_icon_2{
     height: 40px;
+  }
+  .row{
+    margin: auto 0;
   }
