@@ -39,7 +39,8 @@ function Navbar(){
         <nav className="navbar">
             <div className="navbar-container">
                 <Link to="/website-project/" className="navbar-logo" onClick={closeMobileMenu}>
-                    Gorgo School <i class="fas fa-book-open"></i>
+                    Gorgo School 
+                    <img className="social_information_icon_2" src="/website-project/icons/book.svg" alt="book"/>
                 </Link>
                 <div className='menu-icon' onClick={handleClick}>
                     <i className={click ? 'fas fa-times' : 'fas fa-bars'}/>

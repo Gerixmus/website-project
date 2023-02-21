@@ -65,19 +65,19 @@ function Footer() {
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
               Gorgo School
-              <i class='fas fa-book-open' />
+              <img className="social_information_icon_2" src="/website-project/icons/book.svg" alt="book"/>
             </Link>
           </div>
           <small class='website-rights'>Gabriel Gordziejonok © 2021</small>
           <div class='social-icons'>
             <a class='social-icon-link website' href="https://www.facebook.com/" target="_blank">
-              <i class='fab fa-facebook-f' />
+              <img className="social_information_icon_2" src="/website-project/icons/icons8-facebook.svg" alt="facebook"/>
             </a>
             <a class='social-icon-link website' href="https://github.com/Gerixmus/website-project" target="_blank">
-              <i class='fa fa-paw' />
+              <img className="social_information_icon_2" src="/website-project/icons/icons8-github.svg" alt="github"/>
             </a>
             <a class='social-icon-link website' href="https://www.instagram.com/" target="_blank">
-            <i class='fab fa-instagram' />
+              <img className="social_information_icon_2" src="/website-project/icons/icons8-instagram.svg" alt="instagram"/>
             </a>
           </div>
         </div>
