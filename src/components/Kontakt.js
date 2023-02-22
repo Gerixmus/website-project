@@ -91,7 +91,7 @@ function Kontakt(props) {
                     </div>
                 </div>
             </div>
-            <div>
+            <div style={{boxShadow: "0px 0px 2px rgba(145, 158, 171, 0.2), 0px 12px 24px -4px rgba(145, 158, 171, 0.12)"}}>
                 <MyComponent></MyComponent>
             </div>
         </div>

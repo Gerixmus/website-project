@@ -59,13 +59,13 @@
   }
   .personal_info{
     padding: .6em .7em;
-    border: 1px solid gray;
+    border: 1px solid #dddddd;
     border-radius: 5px;
   }
   .message_input{
     height: 140px;
     padding: .6em .7em;
-    border: 1px solid gray;
+    border: 1px solid #dddddd;
     border-radius: 5px;
     resize: none;
   }
