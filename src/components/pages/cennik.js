@@ -6,8 +6,10 @@ import { animationSwitch, transition } from '../../animations';
 
 export default function CennikStrona() {
     return (
-        <motion.div initial="out" animate="in" exit="out" variants={animationSwitch} transition={transition}>
-            <Cennik/>
-        </motion.div>
+        <div style={{flex: 1}}>
+            <motion.div initial="out" animate="in" exit="out" variants={animationSwitch} transition={transition}>
+                <Cennik/>
+            </motion.div>
+        </div>   
     )
 }

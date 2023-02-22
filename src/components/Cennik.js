@@ -4,7 +4,7 @@ import './Cennik.css';
 function Cennik() {
   return (
       <div className='cennik-container'>
-        <section className='cennik-text'>
+        {/* <section className='cennik-text'>
           <div className='cennik-title'>
             <h1>Cennik 2021/2022</h1>
           </div>
@@ -15,7 +15,43 @@ function Cennik() {
             Konsultacja indywidualna 60 min <br/>150 PLN<br/>
             Konsultacja indywidualna 60 min z pisemnym opisem <br/>200 PLN<br/>         
           </div>         
-        </section>     
+        </section>      */}
+        <table className='content-table'>
+          <thead>
+            <tr>
+              <th>Opis</th>
+              <th>Cena</th>
+              <th>Pakiet</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Pakiet 10 zajęć po 45 min</td>
+              <td>1000  PLN</td>
+              <td>podstawowy</td>
+            </tr>
+            <tr>
+              <td>Pakiet 10 zajęć po 60 min</td>
+              <td>1250  PLN</td>
+              <td>rozszerzony</td>
+            </tr>
+            <tr>
+              <td>Pakiet 5 zajęć po 90 min</td>
+              <td>900  PLN</td>
+              <td>egzaminacyjny</td>
+            </tr>
+            <tr>
+              <td>Lekcja indywidualna 60 min</td>
+              <td>150  PLN</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Lekcja  indywidualna 60 min z pisemnym opisem</td>
+              <td>200  PLN</td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
       </div>
   );
 }
