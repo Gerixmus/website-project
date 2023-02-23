@@ -106,8 +106,6 @@
     cursor: pointer;
   }
   form button:hover {
-    /* opacity: .9;
-    background-color: #4267B2; */
     background-color: white;
     border: 1px solid #4267B2;
     color: #4267B2;

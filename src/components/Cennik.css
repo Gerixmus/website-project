@@ -6,22 +6,6 @@
     align-items: center;
     justify-content: center;
   }
-  
-  /* .cennik-text {
-    font-family: 'PT Sans', sans-serif;
-  }
-  
-  .cennik-title {
-    margin-bottom: 24px;
-    font-size: 3rem;
-  }
-  
-  .cennik-ceny {
-    margin-bottom: 24px;
-    font-size: 2rem;
-  } */
-
-/* Nowe zmiany */
 
   .content-table{
     border-radius: 5px;
@@ -44,20 +28,10 @@
     padding: 12px 15px;
   }
 
-  /* .content-table tbody tr{
-    cursor: pointer;
-    border-bottom: 1px solid #dddddd;
-  } */
-
   .normal-row{
     cursor: pointer;
     border-bottom: 1px solid #dddddd;
   }
-
-  /* .content-table tbody tr:hover{
-    color: #4267B2;
-    font-weight: bold;
-  } */
 
   .normal-row:hover{
     color: #4267B2;
