@@ -6,11 +6,13 @@ import { motion } from 'framer-motion'
 import { animationSwitch, transition } from '../../animations';
 
 function Home() {
-    return(
-        <motion.div initial="out" animate="in" exit="out" variants={animationSwitch} transition={transition}>
-            <HeroSection/>
-            <Cards/>
-        </motion.div>
+    return(       
+        <div style={{flex: 1,paddingTop: "80px"}}>
+            <motion.div initial="out" animate="in" exit="out" variants={animationSwitch} transition={transition}>
+                <HeroSection/>
+                <Cards/>
+            </motion.div>
+        </div> 
     )
 }
 
