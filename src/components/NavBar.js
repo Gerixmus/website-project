@@ -3,15 +3,13 @@ import { Link } from "react-router-dom";
 import { Button } from "./Button";
 import './NavBar.css';
 
-/*import Cards from "./Cards";*/
-
 
 function Navbar(){
     const [click, setClick] = useState(false);
     const [button, setButton] = useState(true)
 
-    const handleClick = () => setClick(!click);
-    const closeMobileMenu = () => setClick(false)
+    const handleClick = () => setClick(!click) ;
+    const closeMobileMenu = () => setClick(false);
 
     
     /*const myRef = <Cards/>;
@@ -44,14 +42,11 @@ function Navbar(){
                 </Link>
                 <div className='menu-icon' onClick={handleClick}>
                     <img className="social_information_icon_2" src={click ? "/website-project/icons/close.svg" : "/website-project/icons/menu.svg"} alt="menu"/>
-                    {/* <i className={click ? 'fas fa-times' : 'fas fa-bars'}/> */}
                 </div>
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                     <li className='nav-item'>  
                         <Link to='/website-project/' className='nav-links' onClick={() => {
                             closeMobileMenu();
-                            /*executeScroll();
-                            scroll();*/
                             }}>                          
                             O nas
                         </Link>

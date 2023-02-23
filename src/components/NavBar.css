@@ -85,21 +85,19 @@
     flex-direction: column;
     width: 100%;           
     height: 100%;
-    position: absolute;
+    position:fixed;
+    top: 0;
     left: -100%;
+    bottom: 0;
     opacity: 1;
     transition: all 0.5s ease;
     justify-content: center;
   }
 
   .nav-menu.active {
-    position:fixed;
     background: #242424;
-    top: 0;
     left: 0;
-    bottom: 0;
     opacity: 1;
-    transition: all 0.5s ease;
     z-index: -1;
   }
 
