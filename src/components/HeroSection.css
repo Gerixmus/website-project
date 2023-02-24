@@ -34,13 +34,9 @@
     margin-top: 32px;
 }
 
-.hero-btns .btn {
+/* .hero-btns .btn {
     margin: 6px;
-}
-
-/*.fa-play-circle {
-    margin: 4px;
-}*/
+} */
 
 @media only screen and (max-width: 1024px) {
     .hero-container > h1 {
