@@ -7,7 +7,7 @@ import { animationSwitch, transition } from '../../animations';
 
 function Home() {
     return(       
-        <div style={{flex: 1,paddingTop: "80px"}}>
+        <div style={{flex: 1}}>
             <motion.div initial="out" animate="in" exit="out" variants={animationSwitch} transition={transition}>
                 <HeroSection/>
                 <Cards/>

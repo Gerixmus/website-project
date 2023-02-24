@@ -1,4 +1,6 @@
-.navbar {
+/* CSS for disappearing navbar */
+
+.ScrollingUp {
   background-color: #242424;
   height: 80px;
   width: 100%;
@@ -9,7 +11,34 @@
   position: fixed;
   top: 0;
   z-index: 999;
+  transition: top 0.2s ease-in-out;
 }
+
+.ScrollingDown {
+  background-color: #242424;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: fixed;
+  top: -80px;
+  z-index: 999;
+  transition: top 0.2s ease-in-out;
+}
+/* .navbar {
+  background-color: #242424;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+} */
 
 .navbar-container {
   display: flex;
@@ -29,11 +58,6 @@
   display: flex;
   align-items: center;
   column-gap: 10px;
-}
-
-.fa-book-open {
-  margin-left: 0.5rem;
-  font-size: 1.8rem;
 }
 
 .nav-menu {
@@ -130,11 +154,6 @@
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
-  }
-
-  .fa-times {
-    color: #fff;
-    font-size: 2rem;
   }
 
   .nav-links-mobile {
