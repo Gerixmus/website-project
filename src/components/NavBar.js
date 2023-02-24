@@ -9,6 +9,8 @@ function Navbar(){
     const handleClick = () => setClick(!click) ;
     const closeMobileMenu = () => setClick(false);
 
+    click?document.body.style.overflow = "hidden":document.body.style.overflow = "auto";
+
     return(
     <>
         <nav className="navbar">
