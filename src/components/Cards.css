@@ -15,6 +15,7 @@
     align-items: center;
     max-width: 1120px;
     margin: 0 auto;
+    width: 100%;
   }
   
   .cards__wrapper {
@@ -105,10 +106,10 @@
     justify-content: center; 
     width: 100%;
   }
-  .facebook-post{
+  /* .facebook-post{
     width: 100%;
     overflow: visible !important;
-  }
+  } */
   
   @media only screen and (min-width: 1200px) {
     .content__blog__container {
@@ -120,6 +121,10 @@
     .cards__items {
       display: flex;
     }
+    .facebook-post{
+      width: 100%;
+      overflow: visible !important;
+    }
   }
   
   @media only screen and (max-width: 1024px) {
@@ -128,5 +133,9 @@
     }
     .cards{
       padding: 2rem;
+    }
+    .facebook-post{
+      width: 100%;
+      overflow: visible !important;
     }
   }
