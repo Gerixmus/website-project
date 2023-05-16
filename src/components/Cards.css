@@ -14,7 +14,6 @@
     flex-flow: column;
     align-items: center;
     max-width: 1120px;
-    width: 90%;
     margin: 0 auto;
   }
   
@@ -100,11 +99,21 @@
     font-size: 18px;
     line-height: 24px;
   }
+
+  .facebook{
+    display: flex;
+    justify-content: center; 
+    width: 100%;
+  }
   
   @media only screen and (min-width: 1200px) {
     .content__blog__container {
       width: 84%;
     }
+  }
+  .facebook-post{
+    width: 100%;
+    overflow: visible !important;
   }
   
   @media only screen and (min-width: 1024px) {

@@ -44,10 +44,10 @@ function Cards() {
             />
           </ul>
           <h1>Zobacz nasze posty na Facebooku!</h1>
-          <div style={{ display: "flex", justifyContent: "center" }}>
+          <div className="facebook">
             <FacebookEmbed
+              className="facebook-post"
               url="https://www.facebook.com/20531316728/posts/10154009990506729/"
-              width={550}
             />
           </div>
         </div>
