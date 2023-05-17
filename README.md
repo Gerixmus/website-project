@@ -6,4 +6,5 @@ This project was built to showcase react website for a teaching company. It feat
 
 - Finish pricing page
 - Work on mobile view
+- Work on 360×800
 - Change email notification place
