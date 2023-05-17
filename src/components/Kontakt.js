@@ -3,12 +3,15 @@ import "./Kontakt.css";
 import emailjs from "emailjs-com";
 import MyComponent from "./Map";
 
-const Result = () => {
-  return <p>Twoja Wiadomość została wysłana!</p>;
-};
+// const Result = () => {
+//   return <p>Twoja Wiadomość została wysłana!</p>;
+// };
 
 function Kontakt(props) {
-  const [result, showResult] = useState(false);
+  const initialText = "Wyślij";
+  const [buttonText, setButtonText] = useState(initialText);
+
+  //   const [result, showResult] = useState(false);
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -28,13 +31,17 @@ function Kontakt(props) {
         }
       );
     e.target.reset();
-    showResult(true);
+    // showResult(true);
+
+    setButtonText("Twoja Wiadomość została wysłana!");
   };
 
   // hide result
   setTimeout(() => {
-    showResult(false);
+    setButtonText(initialText);
+    // showResult(false);
   }, 5000);
+
   return (
     <div className="contact_site_container">
       <form className="form_container" action="" onSubmit={sendEmail}>
@@ -75,7 +82,8 @@ function Kontakt(props) {
             name="message"
             required
           ></textarea>
-          <button>Wyślij</button>
+          <button>{buttonText}</button>
+          {/* <button>Wyślij</button> */}
         </div>
         <div className="info">
           <h2 className="comment_header">Dane kontaktowe</h2>
@@ -140,7 +148,7 @@ function Kontakt(props) {
           </div>
         </div>
       </form>
-      <div className="row">{result ? <Result /> : null}</div>
+      {/* <div className="row">{result ? <Result /> : null}</div> */}
       <div className="map-container">
         <MyComponent></MyComponent>
       </div>
