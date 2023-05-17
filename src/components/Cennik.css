@@ -1,6 +1,6 @@
 .cennik-container {
     background-color: #fff;
-    padding: 4rem 1em 4rem 1em;
+    padding: 4rem 0;
     display: flex;
     height: 100%;
     align-items: center;
@@ -11,8 +11,8 @@
     border-radius: 5px;
     border-collapse: collapse;
     margin: 25px 0;
-    max-width: 100%;
-    /* min-width: 600px; */
+    width: 90%;
+    max-width: 600px;
     overflow: hidden;
     box-shadow: 0px 0px 2px rgba(145, 158, 171, 0.2), 0px 12px 24px -4px rgba(145, 158, 171, 0.12);
   }
