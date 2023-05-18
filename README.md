@@ -1,10 +1,16 @@
-# website-project
+# website project
 
-This project was built to showcase react website for a teaching company. It features contact functionality implemented with EmailJS
+This is a sample site for a teaching company. It is fully responsive and it features `about us`, `pricing` and `contact` pages. Using the form on the `contact` page you are able to send email to connected email address.
+
+## Build with
+
+- React
+- EmailJS
+- Google Maps Platform
+- GitHub Pages
 
 ## To do list 📋
 
 - Finish pricing page
 - Work on mobile view
 - Work on 360×800
-- Change email notification place
