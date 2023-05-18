@@ -6,7 +6,7 @@ import { FacebookEmbed } from "react-social-media-embed";
 function Cards() {
   return (
     <div className="cards">
-      <h1>Zobacz nasze ostatnie zdjęcia!</h1>
+      <h1>Check our latest photos!</h1>
       <div className="cards__container">
         <div className="cards__wrapper">
           <ul className="cards__items">
@@ -14,13 +14,13 @@ function Cards() {
               src="/website-project/images/img-ren.jpg"
               text="Rennesaince"
               label="Ren"
-              path="/cennik"
+              // path="/cennik"
             />
             <CardItem
               src="/website-project/images/kylo-ren.jpg"
               text="Kylo-ren"
               label="Ren"
-              path="/cennik"
+              // path="/cennik"
             />
           </ul>
           <ul className="cards__items">
@@ -28,22 +28,22 @@ function Cards() {
               src="/website-project/images/renesmee.jpg"
               text="Renesmee"
               label="Ren"
-              path="/cennik"
+              // path="/cennik"
             />
             <CardItem
               src="/website-project/images/drawing.jpg"
               text="Lana with puppies"
               label="Drawing"
-              path="/cennik"
+              // path="/cennik"
             />
             <CardItem
               src="/website-project/images/ezhik.jpg"
               text="Atapaski Ezhik Snow"
               label="Our dogs"
-              path="/cennik"
+              // path="/cennik"
             />
           </ul>
-          <h1>Zobacz nasze posty na Facebooku!</h1>
+          <h1>Check our facebook posts!</h1>
           <div className="facebook">
             <FacebookEmbed
               className="facebook-post"

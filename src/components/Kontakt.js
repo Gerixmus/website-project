@@ -46,8 +46,8 @@ function Kontakt(props) {
     <div className="contact_site_container">
       <form className="form_container" action="" onSubmit={sendEmail}>
         <div className="form1">
-          <h2 className="form_header">Napisz do nas!</h2>
-          <label for="fullName">Imię i nazwisko</label>
+          <h2 className="form_header">Write to us!</h2>
+          <label for="fullName">Full name</label>
           <input
             className="personal_info"
             type="text"
@@ -55,7 +55,7 @@ function Kontakt(props) {
             name="fullName"
             required
           />
-          <label for="phone">Numer telefonu</label>
+          <label for="phone">Phone number</label>
           <input
             className="personal_info"
             type="text"
@@ -63,7 +63,7 @@ function Kontakt(props) {
             name="phone"
             pattern="[+]?[0-9]{2}[0-9]{9}|[0-9]{9}"
           />
-          <label for="email">Adres email</label>
+          <label for="email">Email address</label>
           <input
             className="personal_info"
             type="email"
@@ -74,7 +74,7 @@ function Kontakt(props) {
         </div>
         <div className="form2">
           <label for="message" id="message-box">
-            Wiadomość
+            Message
           </label>
           <textarea
             className="message_input"
@@ -83,17 +83,16 @@ function Kontakt(props) {
             required
           ></textarea>
           <button>{buttonText}</button>
-          {/* <button>Wyślij</button> */}
         </div>
         <div className="info">
-          <h2 className="comment_header">Dane kontaktowe</h2>
+          <h2 className="comment_header">Contact</h2>
           <div className="info-bar">
             <img
               className="social_information_icon"
               src="/website-project/icons/pin.svg"
               alt="pin"
             />
-            <p>Towarowa 3, 00-811 Warszawa, Polska</p>
+            <p>Towarowa 3, 00-811 Warsaw, Poland</p>
           </div>
           <div className="info-bar">
             <img

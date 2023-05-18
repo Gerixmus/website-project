@@ -45,6 +45,7 @@
     border-radius: 10px;
     overflow: hidden;
     text-decoration: none;
+    cursor: default;
   }
   
   .cards__item__pic-wrap {
