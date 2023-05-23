@@ -8,7 +8,7 @@ import MyComponent from "./Map";
 // };
 
 function Kontakt(props) {
-  const initialText = "Wyślij";
+  const initialText = "Send";
   const [buttonText, setButtonText] = useState(initialText);
 
   //   const [result, showResult] = useState(false);
@@ -33,7 +33,7 @@ function Kontakt(props) {
     e.target.reset();
     // showResult(true);
 
-    setButtonText("Twoja Wiadomość została wysłana!");
+    setButtonText("Your message has been sent!");
   };
 
   // hide result
