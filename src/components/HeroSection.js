@@ -7,9 +7,9 @@ function HeroSection() {
   return (
     <div className="hero-container">
       <img
-        className="hero_section"
+        className="hero-section"
         src="/website-project/images/img-school.jpg"
-        alt="hero_section"
+        alt="hero-section"
       />
       <h1>GORGO SCHOOL</h1>
       <p>English language school</p>
