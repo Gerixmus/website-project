@@ -1,0 +1,87 @@
+.teachers-container{
+    background-color: white;
+    padding: 5rem 2rem;
+}
+
+.our-teachers{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+
+  .teachers{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    max-width: 100%;
+    width: 20rem;
+    cursor: pointer;
+  }
+
+  .teacher{
+    max-width: 80%;
+    max-height: 100%;
+    filter: grayscale(1);
+  }
+  
+  .name-plate{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40%;
+    position: absolute;
+    bottom: 0;
+    background-color: white;
+    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+    padding: 25px 15px;
+  }
+
+  .full-name{
+    font-size: 1.8rem; 
+  }
+
+  .description{
+    font-size: 1rem;
+  }
+
+  .teacher-social{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+  }
+
+  .teacher:hover{
+    transition: all 0.3s ease 0s;
+    filter: grayscale(0);
+  }
+
+  .teachers-description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  
+  @media only screen and (max-width: 1200px) {
+    .our-teachers{
+        flex-wrap: wrap;
+    }
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    .our-teachers{
+      flex-direction: column;
+      align-items: center;
+    }
+    .teachers{
+      height: 25rem;
+    }
+}
