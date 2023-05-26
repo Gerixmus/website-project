@@ -44,7 +44,7 @@ function Navbar() {
             className="navbar-logo"
             onClick={closeMobileMenu}
           >
-            Gorgo School
+            GORGO SCHOOL
             <img
               className="social_information_icon_2"
               src="/website-project/icons/book.svg"

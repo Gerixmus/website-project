@@ -45,8 +45,8 @@
   justify-content: center;
   align-items: center;
   height: 80px;
-  max-width: 1500px;
   white-space: nowrap;
+  font-weight: bold;
 }
 
 .navbar-logo {
