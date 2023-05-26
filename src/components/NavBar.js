@@ -37,8 +37,6 @@ function Navbar() {
 
   return (
     <>
-      {/* <nav className="navbar"> */}
-      {/* Code for dissapearing navbar */}
       <nav className={scrollDirection}>
         <div className="navbar-container">
           <Link
@@ -90,7 +88,6 @@ function Navbar() {
                 onClick={closeMobileMenu}
               >
                 Contact
-                {/* {scrollDirection} */}
               </Link>
             </li>
           </ul>
