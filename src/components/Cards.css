@@ -112,6 +112,61 @@
     max-width: 550px;
     overflow: visible !important;
   }
+
+  .our-teachers{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+  }
+
+  .teachers{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    max-width: 100%;
+    width: 30rem;
+  }
+
+  .teacher{
+    width: 80%;
+    filter: grayscale(1);
+    cursor: pointer;
+  }
+  
+  .name-plate{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    align-items: center;
+    width: 100%;
+    height: 35%;
+    position: absolute;
+    bottom: 0;
+    background-color: white;
+    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+    padding: 30px 20px;
+  }
+
+  .full-name{
+    font-size: 1.8rem; 
+  }
+
+  .description{
+    font-size: 1rem;
+  }
+
+  .social-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .teacher:hover{
+    transition: all 0.3s ease 0s;
+    filter: grayscale(0);
+  }
   
   @media only screen and (min-width: 1200px) {
     .content__blog__container {
@@ -126,6 +181,10 @@
   }
   
   @media only screen and (max-width: 1024px) {
+    .our-teachers{
+      flex-direction: column;
+      align-items: center;
+    }
     .cards__item {
       margin-bottom: 2rem;
     }
