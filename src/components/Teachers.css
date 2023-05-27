@@ -21,6 +21,24 @@
     cursor: pointer;
   }
 
+  .teachers:hover > .teacher{
+    filter: grayscale(0);
+    transition: all 0.3s ease 0s;
+  }
+
+  .teachers-header{
+    background-color: #4267B2;
+    width: 10rem;
+    padding: 0.5rem;
+    color: white;
+    font-weight: 600;
+  }
+
+  .motto{
+    max-width: 35rem;
+    font-weight: 500;
+  }
+
   .teacher{
     max-width: 80%;
     max-height: 100%;
@@ -55,11 +73,6 @@
     align-items: center;
     justify-content: space-between;
     width: 80%;
-  }
-
-  .teacher:hover{
-    transition: all 0.3s ease 0s;
-    filter: grayscale(0);
   }
 
   .teachers-description{
