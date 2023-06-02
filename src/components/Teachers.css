@@ -22,7 +22,7 @@
   }
 
   .teachers:hover > .teacher{
-    filter: grayscale(0);
+    filter: drop-shadow(5px 5px 5px #666666) grayscale(0);
     transition: all 0.3s ease 0s;
   }
 
@@ -32,6 +32,8 @@
     padding: 0.5rem;
     color: white;
     font-weight: 600;
+    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
   }
 
   .motto{
@@ -58,6 +60,7 @@
     background-color: white;
     box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
     padding: 25px 15px;
+    border-radius: 10px;
   }
 
   .full-name{
