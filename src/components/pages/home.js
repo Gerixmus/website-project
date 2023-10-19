@@ -18,8 +18,8 @@ function Home() {
         transition={transition}
       >
         <HeroSection />
-        <Cards />
         <Teachers />
+        <Cards />
       </motion.div>
     </div>
   );
