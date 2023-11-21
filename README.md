@@ -15,4 +15,5 @@ This is a sample site for a teaching company. It is fully responsive and it feat
 
 - [x] Finish pricing page
 - [ ] Work on mobile view
+- [ ] Update Maps JavaScript to version 3
 
